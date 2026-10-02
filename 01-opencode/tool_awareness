@@ -1,0 +1,20 @@
+# Tool Awareness
+
+## Prompt
+Explain what tools or capabilities are available to you in this session. For each, describe what it can do. Do not execute any commands, read files, or modify the project.
+
+## Observation
+Available capabilities in this session:
+- File search (glob): Find files by name or pattern.
+- Content search (grep): Search file contents using regular expressions.
+- File reading (read): Read files or directory listings.
+- File editing (apply_patch): Add, update, move, or delete files using structured patches.
+- Shell execution (bash): Run terminal commands in the workspace, with support for working directories and timeouts.
+- Web retrieval (webfetch): Fetch and convert web pages to Markdown, text, or HTML.
+- Task delegation (task): Launch specialized subagents for exploration or general multi-step work.
+- Questions (question): Ask you structured multiple-choice questions during implementation.
+- Task tracking (todowrite): Maintain a structured list of pending, active, and completed tasks.
+- Parallel execution (multi_tool_use.parallel): Run compatible tool calls concurrently.
+- Skill loading (skill): Load specialized workflows, such as configuring OpenCode itself.
+I can also analyze code, implement changes, run tests, diagnose errors, review diffs, and explain technical topics, subject to your instructions and the project’s contents.
+
